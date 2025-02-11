@@ -1,4 +1,3 @@
-
 # Optimizing GPF scheduler with Differential Evolution on 5G HetNet simulated scenarios
 This is a repository regarding the paper "Optimizing GPF scheduler with Differential Evolution on  5G HetNet simulated scenarios". This document shows the usage of **Differential Evolution** (DE) aiming to optimize the Generalized Proportional Fair (**GPF**) **Scheduler** on a simulated **5G** Heterogeneous Network (**HetNet**).
 
@@ -42,3 +41,6 @@ The random processes in the programs use seeds for productivity sake. This modif
 
 # Submited, but not published
 The mentioned paper was submitted to the **43rd Brazilian Symposium on Computer Networks and Distributed Systems (SBRC)** and it's currently in the review phase. If accepted further details will be added to that readme file.
+# Other works
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14812103.svg)](https://doi.org/10.5281/zenodo.14812103)  
+The author also wrote a paper about optimizing Base Stations' placement on simulated 5G networks using Differential Evolution. Although it was originally written in Portuguese, it can be easily translated online. Feel free to take a look 😉. 

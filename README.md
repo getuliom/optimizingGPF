@@ -1,9 +1,13 @@
 
 # Optimizing GPF scheduler with Differential Evolution on 5G HetNet simulated scenarios
 This is a repository regarding the paper "Optimizing GPF scheduler with Differential Evolution on  5G HetNet simulated scenarios". This document shows the usage of **Differential Evolution** (DE) aiming to optimize the Generalized Proportional Fair (**GPF**) **Scheduler** on a simulated **5G** Heterogeneous Network (**HetNet**).
-# 1. User modifications
+
+# 1. Simulator
+The simulator used in this paper is the **Vienna 5G System Level Simulator**, which allows scenario modeling and performs a Monte Carlo simulation for a given 5G network. Learn more at: https://www.tuwien.at/etit/tc/en/vienna-simulators/vienna-5g-simulators/
+# 2. User modifications
 The Differential Evolution Parameters are present in ```DE.py``` and the Simulation Parameters are present in ```HetNetDE.m```
-## 1.1 Differential Evolution parameters
+
+## 2.1 Differential Evolution parameters
  1.  **Population Size**. Changing the population size will yield more points in the search space to look for optimization. **0 < n (integer)**.  
  ```popSize = n;```
 2. **Max. Generations**. **0 < n (integer)**.  
@@ -20,7 +24,7 @@ The Differential Evolution Parameters are present in ```DE.py``` and the Simulat
 	
 	```typePop = n;```
 
-## 1.2 Scenario parameters
+## 2.2 Scenario parameters
  1.  **Slots per Chunk**. Changes the simulation's "granularity".  **0 < n (integer)**.  
 	```params.time.slotsPerChunk = 100;```
 > [!TIP]
@@ -33,7 +37,8 @@ The Differential Evolution Parameters are present in ```DE.py``` and the Simulat
 3. **Bandwidth**.  
 	```params.transmissionParameters.DL.bandwidthHz = 10e6;```
 	
-# 2. Seeds
+# 3. Seeds
 The random processes in the programs use seeds for productivity sake. This modifications is seen in ```networkGeometry.UniformDistribution``` , ```networkGeometry.MovementFunctions``` , and ```networkGeometry.UniformCluster```. To change the seeds open those files and change the value inside the ```rng(n)``` function.
+
 # Submited, but not published
 The mentioned paper was submitted to the **43rd Brazilian Symposium on Computer Networks and Distributed Systems (SBRC)** and it's currently in the review phase. If accepted further details will be added to that readme file.

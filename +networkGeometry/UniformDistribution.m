@@ -10,6 +10,8 @@ classdef UniformDistribution < networkGeometry.NodeDistribution
     %
     % initial author: Agnes Fastenbauer
     %
+    % modification author: Getúlio Martins Resende
+    %
     % see also networkGeometry.NodeDistribution
 
     properties

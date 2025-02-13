@@ -10,6 +10,8 @@ classdef UniformCluster < networkGeometry.ClusteredDistribution
     %
     % initial author: Agnes Fastenbauer
     %
+    % modification author: Getúlio Martins Resende
+    %
     % see also networkGeometry.NodeDistribution,
     % networkGeometry.ClusteredDistribution, networkGeometry.GaussCluster
 

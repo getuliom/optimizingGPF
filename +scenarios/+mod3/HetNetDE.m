@@ -6,8 +6,7 @@ function params = HetNetDE(params,a,b,usr)
 % models are set individually for each link type. Indoor and LOS decisions
 % for links are set per user type and PDP channel models are used for
 % pedestrian and vehicular users and an AWGN channel is assumed for users
-% in clusters around femto base stations. A weighted round robin scheduler
-% favors vehicular users for scheduling.
+% in clusters around femto base stations.
 %
 % initial author: Fjolla Ademaj
 %

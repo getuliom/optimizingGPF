@@ -4,6 +4,8 @@ classdef MovementFunctions
     %
     % initial author: Brom Jeanne (moved from networkElements.ue.User)
     %
+    % modification author: Getúlio Martins Resende
+    %
     % see also parameters.user.movement,
     % simulation.SimulationSetup.createUsers
 

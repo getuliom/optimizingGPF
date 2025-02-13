@@ -11,6 +11,8 @@ function params = HetNetDE(params,a,b,usr)
 %
 % initial author: Fjolla Ademaj
 %
+% modification author: Getúlio Martins Resende
+%
 % see also launcherFiles.launcherHetNet
 
 %% General Configuration
